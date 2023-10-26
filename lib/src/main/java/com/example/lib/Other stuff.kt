@@ -1,6 +1,6 @@
 package com.example.lib
 
-inline class Other(val x: Int) {
+internal class Other(val x: Int) {
     /*ewf
     we
     r

@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.firstlib.ui.theme.FirstLibTheme
+import com.example.lib.MitoLibBox
 
 
 class MainActivity : ComponentActivity() {
@@ -18,6 +19,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             FirstLibTheme {
+
+                MitoLibBox()
+
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
