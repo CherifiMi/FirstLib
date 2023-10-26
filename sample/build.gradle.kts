@@ -51,8 +51,8 @@ android {
 }
 
 dependencies {
-    implementation(project(":lib"))
-    //implementation("com.github.CherifiMi:FirstLib:1.0")
+    //implementation(project(":lib"))
+    implementation("com.github.CherifiMi:FirstLib:1.4")
 
 
     implementation(libs.core.ktx)
