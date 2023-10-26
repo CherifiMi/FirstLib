@@ -18,7 +18,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -59,7 +59,7 @@ afterEvaluate {
 
                 groupId = "com.github.cherifimi"
                 artifactId = "mito-box-view"
-                version = "1.0"
+                version = "1.1"
             }
         }
     }
