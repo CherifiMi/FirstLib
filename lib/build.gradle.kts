@@ -59,7 +59,7 @@ afterEvaluate {
 
                 groupId = "com.github.cherifimi"
                 artifactId = "mito-box-view"
-                version = "1.3"
+                version = "1.4"
             }
         }
     }
